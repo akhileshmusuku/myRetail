@@ -32,7 +32,7 @@ Go to https://github.com/akhileshmusuku/myRetail/tree/main/jars and download pro
 MongoDB installation
 ```
 
-## Launch the jar file from command prompt using command:
+Launch the jar file from command prompt using command:
 
 ```
 java -jar product-0.0.1-SNAPSHOT.jar
