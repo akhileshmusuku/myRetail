@@ -1,9 +1,9 @@
-## myRetail
+# myRetail
 
 This application provides an end-to-end Proof-of-Concept for a products API, which will aggregate product data from multiple sources and return it as JSON to the caller. 
 This application has been developed simulating the microservices architecture using Spring framework, Java and MongoDB. Although the solution to application is unified, there are different approaches in launching the application as mentioned below:
 
-# Pre-requisites for Approaches 1 and 2
+## Pre-requisites for Approaches 1 and 2
 
 ```
 Java 1.8
@@ -16,10 +16,10 @@ Target Service: https://redsky.target.com/v3/pdp/tcin/13860428excludes=taxonomy,
 ```
 Case study assumes there is an entry of product id in database for successful demonstration.
 
-## Approach 1 (Direct Application Launch)
+# Approach 1 (Direct Application Launch)
 
 
-# Setup:
+## Setup:
 
 ```
 Clone the project and import project folder(Product) into Eclipse and run as Java application.
@@ -29,15 +29,15 @@ Or
 Go to https://github.com/akhileshmusuku/myRetail/tree/main/jars and download product-0.0.1-SNAPSHOT.jar
 ```
 
-# Launch the jar file from command prompt using command:
+## Launch the jar file from command prompt using command:
 
 ```
 java -jar product-0.0.1-SNAPSHOT.jar
 ```
 
-## Approach 2 (Scalable application using Eureka service discovery)
+# Approach 2 (Scalable application using Eureka service discovery)
 
-# Setup:
+## Setup:
 
 Clone the project and import three project folders (Product, discovery-server, client-application)  into Eclipse and run all of them as Java applications.
 
@@ -61,15 +61,15 @@ java -jar -Dserver.port={any unused port} product-0.0.1-SNAPSHOT.jar
 ```
 
 
-## Approach 3 (Application on Docker Environment)
+# Approach 3 (Application on Docker Environment)
 
-# Prerequisite:
+## Prerequisite:
 
 ```
 Docker
 ```
 
-# Setup:
+## Setup:
 
 Clone the project and import project folder(Product).
 
