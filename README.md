@@ -60,7 +60,7 @@ java -jar discovery-server-0.0.1-SNAPSHOT.jar
 ```
 
 
-To scale the product application, Launch another instance of product application on a different port using below:
+To scale the product application, Launch another instance of product application on a different port using below command:
 
 ```
 java -jar -Dserver.port={any unused port} product-0.0.1-SNAPSHOT.jar
@@ -81,7 +81,7 @@ Docker
 
 Clone the project, navigate to Target folder and import project folder(Product).
 
-Launch command line from root directory of project, Product. Execute the below commands to launch the application in Docker environment:
+Launch the command line from root directory of project, Product. Execute the below commands to launch the application in Docker environment:
 
 ```
 1. docker build -t productapp .
