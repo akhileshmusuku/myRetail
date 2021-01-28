@@ -1,0 +1,147 @@
+2021-01-28 01:40:32.780  INFO 95161 --- [restartedMain] com.myretail.product.ProductApplication  : Starting ProductApplication using Java 11.0.2 on Akhileshs-MacBook-Pro.local with PID 95161 (/Users/akhileshmusuku/Downloads/Target/product/bin/main started by akhileshmusuku in /Users/akhileshmusuku/Downloads/Target/product)
+2021-01-28 01:40:32.796 DEBUG 95161 --- [restartedMain] com.myretail.product.ProductApplication  : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-28 01:40:32.805  INFO 95161 --- [restartedMain] com.myretail.product.ProductApplication  : No active profile set, falling back to default profiles: default
+2021-01-28 01:40:33.066  INFO 95161 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-28 01:40:34.793  INFO 95161 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-28 01:40:35.192  INFO 95161 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 386 ms. Found 1 MongoDB repository interfaces.
+2021-01-28 01:40:35.536  INFO 95161 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=86954586-3c96-334b-9e6d-92eb1a4be3dd
+2021-01-28 01:40:36.807  INFO 95161 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-28 01:40:36.823  INFO 95161 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-28 01:40:36.824  INFO 95161 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-28 01:40:36.960  INFO 95161 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-28 01:40:36.961  INFO 95161 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3892 ms
+2021-01-28 01:40:37.556  INFO 95161 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-28 01:40:37.708  WARN 95161 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-01-28 01:40:37.809  INFO 95161 --- [cluster-rtt-ClusterId{value='60126a75b1167e58915e6a65', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:759}] to localhost:27017
+2021-01-28 01:40:37.809  INFO 95161 --- [cluster-ClusterId{value='60126a75b1167e58915e6a65', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:758}] to localhost:27017
+2021-01-28 01:40:37.812  INFO 95161 --- [cluster-ClusterId{value='60126a75b1167e58915e6a65', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=182220782}
+2021-01-28 01:40:37.833  INFO 95161 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-28 01:40:37.916  WARN 95161 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-01-28 01:40:40.021  INFO 95161 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-28 01:40:41.388  INFO 95161 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-01-28 01:40:41.529  WARN 95161 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-28 01:40:41.627  INFO 95161 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-01-28 01:40:41.731  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-01-28 01:40:41.739  INFO 95161 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-01-28 01:40:41.776  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-01-28 01:40:41.776  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-01-28 01:40:41.776  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-01-28 01:40:41.776  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-01-28 01:40:41.776  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-01-28 01:40:41.777  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-01-28 01:40:41.777  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-01-28 01:40:41.977  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-01-28 01:40:41.981  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-01-28 01:40:41.985  INFO 95161 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-01-28 01:40:41.991  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1611819641990 with initial instances count: 1
+2021-01-28 01:40:42.003  INFO 95161 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MYRETAIL-SERVICE with eureka with status UP
+2021-01-28 01:40:42.004  INFO 95161 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1611819642004, current=UP, previous=STARTING]
+2021-01-28 01:40:42.006  INFO 95161 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080: registering service...
+2021-01-28 01:40:42.033  INFO 95161 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-28 01:40:42.034  INFO 95161 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2021-01-28 01:40:42.053  INFO 95161 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080 - registration status: 204
+2021-01-28 01:40:42.066  INFO 95161 --- [restartedMain] com.myretail.product.ProductApplication  : Started ProductApplication in 10.068 seconds (JVM running for 10.862)
+2021-01-28 01:41:23.648  INFO 95161 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-28 01:41:23.774 DEBUG 95161 --- [http-nio-8080-exec-1] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:41:23.774  INFO 95161 --- [http-nio-8080-exec-1] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:41:23.840 DEBUG 95161 --- [http-nio-8080-exec-1] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:41:24.486  INFO 95161 --- [http-nio-8080-exec-1] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:41:24.600  INFO 95161 --- [http-nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:760}] to localhost:27017
+2021-01-28 01:41:24.721  INFO 95161 --- [http-nio-8080-exec-1] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:41:24.721  INFO 95161 --- [http-nio-8080-exec-1] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:41:24.722 DEBUG 95161 --- [http-nio-8080-exec-1] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:41:31.891 DEBUG 95161 --- [http-nio-8080-exec-2] c.m.p.controller.ProductController       : request payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:41:31.891  INFO 95161 --- [http-nio-8080-exec-2] c.m.product.service.ProductService       : inside update service Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:41:31.898 DEBUG 95161 --- [http-nio-8080-exec-2] c.m.product.service.ProductService       : update product is present dbProduct com.myretail.product.dbentity.ProductEntity@34987c94
+2021-01-28 01:41:32.003  INFO 95161 --- [http-nio-8080-exec-2] c.m.product.repository.ProductDAOImpl    : updated successfully 13860428
+2021-01-28 01:41:32.004 DEBUG 95161 --- [http-nio-8080-exec-2] c.m.product.service.ProductService       : request after update Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:41:32.004 DEBUG 95161 --- [http-nio-8080-exec-2] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:41:36.577 DEBUG 95161 --- [http-nio-8080-exec-3] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:41:36.578  INFO 95161 --- [http-nio-8080-exec-3] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:41:36.578 DEBUG 95161 --- [http-nio-8080-exec-3] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:41:36.637  INFO 95161 --- [http-nio-8080-exec-3] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:41:36.644  INFO 95161 --- [http-nio-8080-exec-3] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:41:36.644  INFO 95161 --- [http-nio-8080-exec-3] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:41:36.644 DEBUG 95161 --- [http-nio-8080-exec-3] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:42:35.139 DEBUG 95161 --- [http-nio-8080-exec-4] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:42:35.140  INFO 95161 --- [http-nio-8080-exec-4] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:42:35.140 DEBUG 95161 --- [http-nio-8080-exec-4] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:42:35.178  INFO 95161 --- [http-nio-8080-exec-4] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:42:35.182  INFO 95161 --- [http-nio-8080-exec-4] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:42:35.182  INFO 95161 --- [http-nio-8080-exec-4] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:42:35.183 DEBUG 95161 --- [http-nio-8080-exec-4] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:34.607 DEBUG 95161 --- [http-nio-8080-exec-7] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:34.645  INFO 95161 --- [http-nio-8080-exec-7] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:34.651 DEBUG 95161 --- [http-nio-8080-exec-7] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:34.696  INFO 95161 --- [http-nio-8080-exec-7] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:34.705  INFO 95161 --- [http-nio-8080-exec-7] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:34.706  INFO 95161 --- [http-nio-8080-exec-7] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:34.706 DEBUG 95161 --- [http-nio-8080-exec-7] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:37.319 DEBUG 95161 --- [http-nio-8080-exec-8] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:37.319  INFO 95161 --- [http-nio-8080-exec-8] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:37.320 DEBUG 95161 --- [http-nio-8080-exec-8] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:37.356  INFO 95161 --- [http-nio-8080-exec-8] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:37.363  INFO 95161 --- [http-nio-8080-exec-8] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:37.363  INFO 95161 --- [http-nio-8080-exec-8] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:37.363 DEBUG 95161 --- [http-nio-8080-exec-8] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:37.932 DEBUG 95161 --- [http-nio-8080-exec-9] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:37.932  INFO 95161 --- [http-nio-8080-exec-9] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:37.933 DEBUG 95161 --- [http-nio-8080-exec-9] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:37.990  INFO 95161 --- [http-nio-8080-exec-9] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:37.995  INFO 95161 --- [http-nio-8080-exec-9] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:37.995  INFO 95161 --- [http-nio-8080-exec-9] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:37.995 DEBUG 95161 --- [http-nio-8080-exec-9] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:38.773 DEBUG 95161 --- [http-nio-8080-exec-10] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:38.774  INFO 95161 --- [http-nio-8080-exec-10] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:38.774 DEBUG 95161 --- [http-nio-8080-exec-10] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:38.833  INFO 95161 --- [http-nio-8080-exec-10] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:38.836  INFO 95161 --- [http-nio-8080-exec-10] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:38.836  INFO 95161 --- [http-nio-8080-exec-10] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:38.836 DEBUG 95161 --- [http-nio-8080-exec-10] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:40.276 DEBUG 95161 --- [http-nio-8080-exec-1] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:40.276  INFO 95161 --- [http-nio-8080-exec-1] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:40.277 DEBUG 95161 --- [http-nio-8080-exec-1] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:40.329  INFO 95161 --- [http-nio-8080-exec-1] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:40.434  INFO 95161 --- [http-nio-8080-exec-1] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:40.434  INFO 95161 --- [http-nio-8080-exec-1] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:40.434 DEBUG 95161 --- [http-nio-8080-exec-1] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:41.008 DEBUG 95161 --- [http-nio-8080-exec-2] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:41.009  INFO 95161 --- [http-nio-8080-exec-2] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:41.009 DEBUG 95161 --- [http-nio-8080-exec-2] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:41.043  INFO 95161 --- [http-nio-8080-exec-2] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:41.049  INFO 95161 --- [http-nio-8080-exec-2] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:41.056  INFO 95161 --- [http-nio-8080-exec-2] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:41.056 DEBUG 95161 --- [http-nio-8080-exec-2] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:41.382 DEBUG 95161 --- [http-nio-8080-exec-3] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:41.382  INFO 95161 --- [http-nio-8080-exec-3] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:41.383 DEBUG 95161 --- [http-nio-8080-exec-3] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:41.424  INFO 95161 --- [http-nio-8080-exec-3] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:41.427  INFO 95161 --- [http-nio-8080-exec-3] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:41.433  INFO 95161 --- [http-nio-8080-exec-3] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:41.434 DEBUG 95161 --- [http-nio-8080-exec-3] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:41.541 DEBUG 95161 --- [http-nio-8080-exec-4] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:41.541  INFO 95161 --- [http-nio-8080-exec-4] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:41.543 DEBUG 95161 --- [http-nio-8080-exec-4] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:41.580  INFO 95161 --- [http-nio-8080-exec-4] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:41.588  INFO 95161 --- [http-nio-8080-exec-4] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:41.595  INFO 95161 --- [http-nio-8080-exec-4] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:41.596 DEBUG 95161 --- [http-nio-8080-exec-4] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:44:41.692 DEBUG 95161 --- [http-nio-8080-exec-5] c.m.p.controller.ProductController       : request id 13860428
+2021-01-28 01:44:41.692  INFO 95161 --- [http-nio-8080-exec-5] c.m.product.service.ProductService       : inside get service 13860428
+2021-01-28 01:44:41.693 DEBUG 95161 --- [http-nio-8080-exec-5] c.m.p.repository.ProductInfoAPIDao       : calling URL :: https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate
+2021-01-28 01:44:41.845  INFO 95161 --- [http-nio-8080-exec-5] c.m.product.service.ProductService       : Product name from api:: The Big Lebowski (Blu-ray)
+2021-01-28 01:44:41.850  INFO 95161 --- [http-nio-8080-exec-5] c.m.product.service.ProductService       : record is present in DB :: true
+2021-01-28 01:44:41.850  INFO 95161 --- [http-nio-8080-exec-5] c.m.product.service.ProductService       : fetched id successfully 13860428
+2021-01-28 01:44:41.851 DEBUG 95161 --- [http-nio-8080-exec-5] c.m.p.controller.ProductController       : response payload Product [id=13860428, name=The Big Lebowski (Blu-ray), current_price=Pricing [value=13.8, currency_code=USD]]
+2021-01-28 01:45:41.787  INFO 95161 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-01-28 01:50:41.805  INFO 95161 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-01-28 01:52:02.624  INFO 95161 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MYRETAIL-SERVICE with eureka with status DOWN
+2021-01-28 01:52:02.626  INFO 95161 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1611820322626, current=DOWN, previous=UP]
+2021-01-28 01:52:02.627  INFO 95161 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080: registering service...
+2021-01-28 01:52:02.675  INFO 95161 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080 - registration status: 204
+2021-01-28 01:52:02.848  INFO 95161 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-28 01:52:02.925  INFO 95161 --- [Thread-5] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:760}] to localhost:27017 because the pool has been closed.
+2021-01-28 01:52:02.938  INFO 95161 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-01-28 01:52:05.946  INFO 95161 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-01-28 01:52:05.957  INFO 95161 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080 - deregister  status: 200
+2021-01-28 01:52:05.968  INFO 95161 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

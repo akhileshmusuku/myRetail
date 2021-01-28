@@ -1,0 +1,87 @@
+2021-01-28 01:35:23.854  INFO 95156 --- [main] c.m.d.DiscoveryServerApplication         : Starting DiscoveryServerApplication using Java 11.0.2 on Akhileshs-MacBook-Pro.local with PID 95156 (/Users/akhileshmusuku/Downloads/Target/discovery-server/bin/main started by akhileshmusuku in /Users/akhileshmusuku/Downloads/Target/discovery-server)
+2021-01-28 01:35:23.861 DEBUG 95156 --- [main] c.m.d.DiscoveryServerApplication         : Running with Spring Boot v2.4.2, Spring v5.3.3
+2021-01-28 01:35:23.862  INFO 95156 --- [main] c.m.d.DiscoveryServerApplication         : No active profile set, falling back to default profiles: default
+2021-01-28 01:35:25.930  INFO 95156 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=64e2efd7-b6c9-34dc-a1e4-8db8455d4801
+2021-01-28 01:35:26.421  INFO 95156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2021-01-28 01:35:26.443  INFO 95156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-28 01:35:26.445  INFO 95156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-28 01:35:26.664  INFO 95156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-28 01:35:26.665  INFO 95156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2717 ms
+2021-01-28 01:35:27.611  INFO 95156 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2021-01-28 01:35:27.709  INFO 95156 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-01-28 01:35:27.712  INFO 95156 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-01-28 01:35:27.937  INFO 95156 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-01-28 01:35:27.937  INFO 95156 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-01-28 01:35:29.214  INFO 95156 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-28 01:35:30.096  INFO 95156 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-01-28 01:35:30.263  WARN 95156 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-01-28 01:35:30.284  INFO 95156 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-01-28 01:35:30.331  INFO 95156 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-01-28 01:35:30.331  INFO 95156 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2021-01-28 01:35:30.345  INFO 95156 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1611819330343 with initial instances count: 0
+2021-01-28 01:35:30.407  INFO 95156 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2021-01-28 01:35:30.410  INFO 95156 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2021-01-28 01:35:30.818  INFO 95156 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-01-28 01:35:30.818  INFO 95156 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-01-28 01:35:30.818  INFO 95156 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-01-28 01:35:30.818  INFO 95156 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-01-28 01:35:30.963  INFO 95156 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2021-01-28 01:35:30.974  INFO 95156 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2021-01-28 01:35:30.976  INFO 95156 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2021-01-28 01:35:31.023  INFO 95156 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UNKNOWN with eureka with status UP
+2021-01-28 01:35:31.026  INFO 95156 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2021-01-28 01:35:31.081  INFO 95156 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2021-01-28 01:35:31.084  INFO 95156 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2021-01-28 01:35:31.087  INFO 95156 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2021-01-28 01:35:31.087  INFO 95156 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2021-01-28 01:35:31.088  INFO 95156 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2021-01-28 01:35:31.107  INFO 95156 --- [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2021-01-28 01:35:31.122  INFO 95156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2021-01-28 01:35:31.125  INFO 95156 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2021-01-28 01:35:31.194  INFO 95156 --- [main] c.m.d.DiscoveryServerApplication         : Started DiscoveryServerApplication in 8.498 seconds (JVM running for 9.712)
+2021-01-28 01:36:31.096  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-01-28 01:37:31.098  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-01-28 01:37:41.993  INFO 95156 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-28 01:37:42.319  INFO 95156 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CLIENT-SERVICE/192.168.0.125:client-service:8021 with status UP (replication=false)
+2021-01-28 01:37:43.018  INFO 95156 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CLIENT-SERVICE/192.168.0.125:client-service:8021 with status UP (replication=true)
+2021-01-28 01:38:31.100  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-01-28 01:39:31.106  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2021-01-28 01:40:31.112  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-01-28 01:40:42.051  INFO 95156 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080 with status UP (replication=false)
+2021-01-28 01:40:42.564  INFO 95156 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080 with status UP (replication=true)
+2021-01-28 01:41:31.113  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-01-28 01:42:31.119  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-01-28 01:43:31.121  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-01-28 01:44:21.124  INFO 95156 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079 with status UP (replication=false)
+2021-01-28 01:44:21.653  INFO 95156 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079 with status UP (replication=true)
+2021-01-28 01:44:31.124  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-01-28 01:45:31.126  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-01-28 01:46:31.131  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-01-28 01:47:31.133  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-01-28 01:48:30.985  INFO 95156 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079 with status DOWN (replication=false)
+2021-01-28 01:48:31.135  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-01-28 01:48:31.500  INFO 95156 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079 with status DOWN (replication=true)
+2021-01-28 01:48:34.257  INFO 95156 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079 (replication=false)
+2021-01-28 01:48:34.776  WARN 95156 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079
+2021-01-28 01:48:34.776  INFO 95156 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): MYRETAIL-SERVICE - 192.168.0.125:myRetail-service:8079
+2021-01-28 01:48:34.778  WARN 95156 --- [TaskBatchingWorker-target_localhost-3] c.n.eureka.cluster.ReplicationTask       : The replication of task MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079:Cancel@localhost failed with response code 404
+2021-01-28 01:48:34.778  WARN 95156 --- [TaskBatchingWorker-target_localhost-3] c.netflix.eureka.cluster.PeerEurekaNode  : MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8079:Cancel@localhost: missing entry.
+2021-01-28 01:49:31.139  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2021-01-28 01:50:30.996  INFO 95156 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2021-01-28 01:50:31.142  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-01-28 01:51:31.149  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-01-28 01:52:02.653  INFO 95156 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080 with status DOWN (replication=false)
+2021-01-28 01:52:03.186  INFO 95156 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080 with status DOWN (replication=true)
+2021-01-28 01:52:05.954  INFO 95156 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080 (replication=false)
+2021-01-28 01:52:06.465  WARN 95156 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080
+2021-01-28 01:52:06.466  INFO 95156 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): MYRETAIL-SERVICE - 192.168.0.125:myRetail-service:8080
+2021-01-28 01:52:06.468  WARN 95156 --- [TaskBatchingWorker-target_localhost-16] c.n.eureka.cluster.ReplicationTask       : The replication of task MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080:Cancel@localhost failed with response code 404
+2021-01-28 01:52:06.468  WARN 95156 --- [TaskBatchingWorker-target_localhost-16] c.netflix.eureka.cluster.PeerEurekaNode  : MYRETAIL-SERVICE/192.168.0.125:myRetail-service:8080:Cancel@localhost: missing entry.
+2021-01-28 01:52:08.974  INFO 95156 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.0.125 with status UP (replication=false)
+2021-01-28 01:52:09.482  INFO 95156 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/192.168.0.125 with status UP (replication=true)
+2021-01-28 01:52:31.151  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2021-01-28 01:53:31.156  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2021-01-28 01:54:31.158  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2021-01-28 01:55:31.159  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-01-28 01:56:31.164  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2021-01-28 01:57:31.164  INFO 95156 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
