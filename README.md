@@ -18,15 +18,18 @@ Case study assumes there is an entry of product id in database for successful de
 
 # Approach 1 (Direct Application Launch)
 
+This approach is focussed on the main application fulfilling the caller's requirement by returning the requested product information.
 
 ## Setup:
 
 ```
-Clone the project and import project folder(Product) into Eclipse and run as Java application.
+Clone the project, navigate to Target folder and import project folder(Product) into Eclipse and run as Java application.
 
 Or
 
 Go to https://github.com/akhileshmusuku/myRetail/tree/main/jars and download product-0.0.1-SNAPSHOT.jar
+
+MongoDB installation
 ```
 
 ## Launch the jar file from command prompt using command:
@@ -37,9 +40,12 @@ java -jar product-0.0.1-SNAPSHOT.jar
 
 # Approach 2 (Scalable application using Eureka service discovery)
 
+This approach concentrates on implementing a microservice architecture using multiple instances of the main application running in parallel. It uses Eureka web server, client for service registry, discovery respectively. 
+Client application (client-application-0.0.1-SNAPSHOT.jar) is used to call the main application(product-0.0.1-SNAPSHOT.jar) using Eureka
+
 ## Setup:
 
-Clone the project and import three project folders (Product, discovery-server, client-application)  into Eclipse and run all of them as Java applications.
+Clone the project, navigate to Target folder and import three project folders (Product, discovery-server, client-application)  into Eclipse and run all of them as Java applications.
 
 Or
 
@@ -63,6 +69,8 @@ java -jar -Dserver.port={any unused port} product-0.0.1-SNAPSHOT.jar
 
 # Approach 3 (Application on Docker Environment)
 
+This approach is focussed on running an application in a Docker environment.
+
 ## Prerequisite:
 
 ```
@@ -71,7 +79,7 @@ Docker
 
 ## Setup:
 
-Clone the project and import project folder(Product).
+Clone the project, navigate to Target folder and import project folder(Product).
 
 Launch command line from root directory of project, Product. Execute the below commands to launch the application in Docker environment:
 
@@ -81,7 +89,7 @@ Launch command line from root directory of project, Product. Execute the below c
 ```
 
 
-## Sample Request and Response
+# Sample Request and Response
 
 ```
 Request method : GET
